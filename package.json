@@ -1,0 +1,20 @@
+{
+  "name": "elastic_playground",
+  "version": "1.0.0",
+  "description": "Example Web Server + Elastic Stack",
+  "engines": {
+    "node": ">= 14.x.x"
+  },
+  "main": "src/index.js",
+  "mx": {
+    "nodeVer": "14.16.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
