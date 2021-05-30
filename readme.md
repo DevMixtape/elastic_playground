@@ -12,6 +12,11 @@ installed. I'd recommend referring to the [official install
 guide](https://docs.docker.com/compose/install/) for details on getting
 up and running.
 
+*NOTE* - you will need at least 4 gigs of memory for this stack to run.
+Using Docker desktop is easiest way to modify any limits imposed. By
+default only 2 gigs of memory are allowed so you will need to change
+this.
+
 From there `docker-compose up` will spin up:
 
 1. A simple [express.js](https://expressjs.com/) app with a
